@@ -1,0 +1,13 @@
+---
+- name: install jenkin
+  hosts: all
+  become: sudo
+  become_user: root
+  remote_user: ec2-user
+  
+
+  
+  roles:
+    -jenkin
+    
+    
